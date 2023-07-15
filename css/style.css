@@ -35,13 +35,13 @@ a {
 }
 
 .btn-radius {
+    background-color: #8f8a8a;
     font-size: 30px;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
     border-radius: 50%;
-    background-color: black;
-    margin: 15px;
+    margin: 55px;
 }
 
 /* End Common CSS Style */
@@ -58,7 +58,7 @@ a {
 
 #serviceSection .item {
     position: relative;
-    padding: 50px 30px;
+    padding: 80px 30px;
     background-color: #403b3b;
 }
 
@@ -72,7 +72,6 @@ a {
 #serviceSection .item img {
     max-width: 100%;
     display: block;
-    margin: ;
 }
 
 #serviceSection .item .overlay {
@@ -90,7 +89,7 @@ a {
 #serviceSection .item .overlay p {
     display: block;
     text-align: center;
-    margin: 40px auto;
+    margin: 30px auto;
     font-size: 50px;
 }
 
@@ -99,9 +98,13 @@ a {
     display: block;
 }
 
-#serviceSection .item button {
+#serviceSection .item .overlay button {
     background: none;
     border: none;
+}
+
+#serviceSection .item .overlay i:hover {
+    background: yellow;
 }
 
 /* End Service Section CSS Style */
