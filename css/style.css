@@ -95,6 +95,7 @@ a {
 }
 
 #serviceSection .item .overlay p {
+    color: rgb(7, 7, 7);
     display: block;
     text-align: center;
     margin: 30px auto;
@@ -115,3 +116,26 @@ a {
 }
 
 /* End Service Section CSS Style */
+/* Start Portfolio Section CSS Style */
+#portfolioSection {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#portfolioSection .sectionHeading {
+    color: black;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#portfolioSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#portfolioSection .item .innerItem>img {
+    max-width: 100%;
+}
+
+/* End Portfolio Section CSS Style */
