@@ -62,11 +62,19 @@ a {
     background-color: #403b3b;
 }
 
+#serviceSection .sectionHeading {
+    color: black;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
 #serviceSection .item h3 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 100;
     line-height: 44px;
     padding: 30px 0;
+    text-transform: uppercase;
 }
 
 #serviceSection .item img {
@@ -92,7 +100,6 @@ a {
     margin: 30px auto;
     font-size: 50px;
 }
-
 
 #serviceSection .item:hover .overlay {
     display: block;
