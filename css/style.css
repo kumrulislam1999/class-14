@@ -1,0 +1,107 @@
+/* Start Common CSS Style */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.w_33 {
+    width: calc((100% / 3) - 30px);
+}
+
+.btn-radius {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 15px;
+}
+
+/* End Common CSS Style */
+
+/* Start Service Section CSS Style */
+#serviceSection {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#serviceSection .row {
+    justify-content: space-between;
+}
+
+#serviceSection .item {
+    position: relative;
+    padding: 50px 30px;
+    background-color: #403b3b;
+}
+
+#serviceSection .item h3 {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 44px;
+    padding: 30px 0;
+}
+
+#serviceSection .item img {
+    max-width: 100%;
+    display: block;
+    margin: ;
+}
+
+#serviceSection .item .overlay {
+    background-color: rgb(255, 187, 0);
+    padding: 50px 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    transition: 0.4s;
+}
+
+#serviceSection .item .overlay p {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 50px;
+}
+
+
+#serviceSection .item:hover .overlay {
+    display: block;
+}
+
+#serviceSection .item button {
+    background: none;
+    border: none;
+}
+
+/* End Service Section CSS Style */
